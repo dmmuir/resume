@@ -11,190 +11,189 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
 	
 	<style type="text/css">
-	
-		@import url(
-		https://fonts.googleapis.com/css?family=Lato:400,700
-		);
-		body {
-			background: #fff;
-			font-family: Lato, sans-serif;
-			margin: 0 0 80px;
-		}
-		a {
-			color: #5e81ac;
-		}
-		a:focus,
-		a:hover {
-			color: #88c0d0;
-			text-decoration: none;
-		}
-		p {
-			line-height: 1.5;
-			margin: 0;
-		}
-		p + p {
-			margin-top: 10px;
-		}
-		h1,
-		h2,
-		h3,
-		h4 {
-			margin-top: 0
-		}
-		section {
-			margin-top: 30px;
-		}
-		li {
-			line-height: 1.8;
-			list-style: none;
-		}
-		li:before {
-			content: "\f052";
-			float: left;
-			font: 13px Octicons;
-			margin-top: 6px;
-			margin-left: -20px;
-			opacity: .1;
-			position: absolute;
-		}
-		blockquote {
-			border-left: 5px solid #e7e9ec;
-			font-size: 14px;
-		}
-		em {
-			color: #95a5a6;
-			font-weight: normal;
-			font-style: normal;
-		}
-		h4 span:first-child {
-			color: #000;
-			font-weight: bold;
-		}
-		.container {
-			max-width: 750px;
-			padding: 0 30px;
-		}
-		.col-sm-6 {
-			margin-bottom: 10px;
-		}
-		.col-sm-12 h4 {
-			margin-top: 12px; 
-		}
-		.col-sm-12 + .col-sm-12 {
-			margin-top: 30px;
-		}
-		#header {
-			background: #f4f6f6;
-			padding: 50px 0;
-			margin-bottom: 30px;
-		}
-		#header h2 {
-			color: #81a1c1;
-			font-size: 24px;
-		}
-		#content h3 {
-			color: #5e81ac;
-			font-size: 26px;
-			margin-top: -4px;
-		}
-		#content aside {
-			text-align: right;
-			padding-right: 30px;
-		}
-		#profiles .network {
-			text-transform: capitalize;
-		}
-		#work .position,
-		#volunteer .position {
-			font-weight: bold;
-			margin-bottom: 8px;
-		}
-		#work .summary,
-		#volunteer .summary {
-			padding-bottom: 5px;
-		}
-		#education .area {
-			font-weight: bold;
-		}
-		#education .area:before {
-			content: "\f0d7";
-			font: 16px Octicons;
-			margin-right: 6px;
-		}
-		#education .studyType {
-			margin-left: 25px;
-		}
-		#awards .summary,
-		#publications .summary {
-			margin-top: 8px;
-		}
-		#publications .website a:before {
-			content: attr(href);
-		}
+	@import url(
+https://fonts.googleapis.com/css?family=Lato:400,700
+);
+body {
+	background: #fff;
+	font-family: Lato, sans-serif;
+	margin: 0 0 80px;
+}
+a {
+	color: #5e81ac;
+}
+a:focus,
+a:hover {
+	color: #88c0d0;
+	text-decoration: none;
+}
+p {
+	line-height: 1.5;
+	margin: 0;
+}
+p + p {
+	margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+	margin-top: 0
+}
+section {
+	margin-top: 30px;
+}
+li {
+	line-height: 1.8;
+	list-style: none;
+}
+li:before {
+	content: "\f052";
+	float: left;
+	font: 13px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	opacity: .1;
+	position: absolute;
+}
+blockquote {
+	border-left: 5px solid #e7e9ec;
+	font-size: 14px;
+}
+em {
+	color: #95a5a6;
+	font-weight: normal;
+	font-style: normal;
+}
+h4 span:first-child {
+	color: #000;
+	font-weight: bold;
+}
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+.col-sm-6 {
+	margin-bottom: 10px;
+}
+.col-sm-12 h4 {
+	margin-top: 12px; 
+}
+.col-sm-12 + .col-sm-12 {
+	margin-top: 30px;
+}
+#header {
+	background: #f4f6f6;
+	padding: 50px 0;
+	margin-bottom: 30px;
+}
+#header h2 {
+	color: #81a1c1;
+	font-size: 24px;
+}
+#content h3 {
+	color: #5e81ac;
+	font-size: 26px;
+	margin-top: -4px;
+}
+#content aside {
+	text-align: right;
+	padding-right: 30px;
+}
+#profiles .network {
+	text-transform: capitalize;
+}
+#work .position,
+#volunteer .position {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#work .summary,
+#volunteer .summary {
+	padding-bottom: 5px;
+}
+#education .area {
+	font-weight: bold;
+}
+#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
+#education .studyType {
+	margin-left: 25px;
+}
+#awards .summary,
+#publications .summary {
+	margin-top: 8px;
+}
+#publications .website a:before {
+	content: attr(href);
+}
 
-		.date {
-			font-size: 14px;
-		}
+.date {
+	font-size: 14px;
+}
 
-		@media (min-width: 480px) {
-			.strike-through {
-				border-top: 1px solid #f4f6f6;
-				height: 20px;
-				margin-top: 12px;
-				margin-bottom: -2px;
-				position: relative;
-			}
-			.strike-through span,
-			.strike-through a {
-				background: #fff;
-				position: absolute;
-			}
-			.strike-through span:first-child {
-				padding-right: 20px;
-				margin-top: -12px;
-			}
-			.strike-through span + span {
-				font-size: 14px;
-				margin-top: -10px;
-				padding-left: 20px;
-				right: 0;
-			}
-		}
-		@media (max-width: 768px) {
-			.col-sm-6:last-child {
-				margin-bottom: 0px;
-			}
-			#content aside {
-				margin-bottom: 20px;
-				padding-right: 0;
-				text-align: left;
-			}
-			#publications .website a:before {
-				content: "View publication";
-			}
-		}
-		@media (max-width: 480px) {
-			h1 {
-				font-size: 26px;
-			}
-			.date {
-				font-size: 14px;
-				margin-bottom: 5px;
-			}
-			.strike-through span:first-child {
-				margin-bottom: 7px;
-			}
-			.strike-through span {
-				display: block;
-			}	
-			#header {
-				margin-bottom: 10px;
-				padding: 40px 0;
-			}
-			#actions {
-				display: none;
-			}
-		}
+@media (min-width: 480px) {
+	.strike-through {
+		border-top: 1px solid #f4f6f6;
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+	}
+	.strike-through span,
+	.strike-through a {
+		background: #fff;
+		position: absolute;
+	}
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+	}
+	.strike-through span + span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+		margin-bottom: 0px;
+	}
+	#content aside {
+		margin-bottom: 20px;
+		padding-right: 0;
+		text-align: left;
+	}
+	#publications .website a:before {
+		content: "View publication";
+	}
+}
+@media (max-width: 480px) {
+	h1 {
+		font-size: 26px;
+	}
+	.date {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+	}
+	.strike-through span {
+		display: block;
+	}	
+	#header {
+		margin-bottom: 10px;
+		padding: 40px 0;
+	}
+	#actions {
+		display: none;
+	}
+}
 
 	</style>
 	
@@ -247,7 +246,7 @@
 			<h3>About</h3>
 		</aside>
 		<div class="col-sm-9">
-			<p></p>
+			<p>Software Engineer, passionate about simplifying systems. 10 years experience in engineering.</p>
 		</div>
 	</section>
 	<section id="profiles" class="row">
@@ -272,7 +271,7 @@
 					</strong>
 					<div class="username">
 						<div class="url">
-							<a href="linkedin.com/in/danmuir">danmuir</a>
+							<a href="https://www.linkedin.com/in/danmuir/">danmuir</a>
 						</div>
 					</div>
 				</div>
@@ -377,7 +376,7 @@
 				</h4>
 				<div class="position">
 					<span>
-						Engineering Technician
+						Shop Attendant
 					</span>
 					<span class="date pull-right">
 						May 2009 - Aug 2010
@@ -462,7 +461,9 @@
 					<li>Bash</li>
 					<li>Python</li>
 					<li>HTML5</li>
+					<li>AWK</li>
 					<li>SQL</li>
+					<li>Java</li>
 				</ul>
 			</div>
 			<div class="col-sm-6">
@@ -474,6 +475,17 @@
 					<li>Docker</li>
 					<li>Kubernetes</li>
 					<li>Linux</li>
+					<li>React</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Paradigms</h4>
+				</div>
+				<ul class="keywords">
+					<li>Functional</li>
+					<li>Data Oriented</li>
+					<li>First Principles</li>
 				</ul>
 			</div>
 			</div>
@@ -481,9 +493,37 @@
 	</section>
 
 
+	<section id="interests" class="row">
+		<aside class="col-sm-3">
+			<h3>Interests</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+				<ul class="keywords">
+					<li>Software Automation</li>
+					<li>Audio Engineering</li>
+					<li>Food. Coffee. Beer.</li>
+					<li>Traveling</li>
+					<li>Internet Performance</li>
+					<li>Data Compression Formats</li>
+				</ul>
+			</div>
+		</div>
+	</section>
 	
 
+        <section id="footer ">
+		<p class="pull-right">
+		  &copy; 2021 Daniel Muir |
+		  <a href="#" onclick="javascript:window.print(); return false">Print</a> |
+		  <a href="#">Top</a>
+		</p>
+		<p>
+		  Source on <a href="https://github.com/dmmuir/resume/tree/main">github</a>
+		</p>
+        </section>
+
 	</div>
-	
 	</body>
 </html>
+
