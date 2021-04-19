@@ -1,10 +1,13 @@
 # Dan Muir's Resume - 2021
 
+[config]
+github_source = "https://github.com/dmmuir/resume/tree/main"
+
 [basics]
 name = "Daniel Muir"
 label = "Software Engineer"
 picture = ""
-summary = ""
+summary = "Software Engineer, passionate about simplifying systems. 10 years experience in engineering."
 phone = "(484)557-0581"
 email = "daniel.muir.14@gmail.com"
 
@@ -21,16 +24,20 @@ url = "https://github.com/dmmuir"
 [[basics.profiles]]
 network = "Linkedin"
 username = "danmuir"
-url = "linkedin.com/in/danmuir"
+url = "https://www.linkedin.com/in/danmuir/"
 
 
 [[skills]]
 name = "Programming"
-keywords = ["Rust", "Javascript", "Bash", "Python", "HTML5", "SQL"]
+keywords = ["Rust", "Javascript", "Bash", "Python", "HTML5", "AWK", "SQL", "Java"]
 
 [[skills]]
 name = "Technologies"
-keywords = ["Git", "Docker", "Kubernetes", "Linux"]
+keywords = ["Git", "Docker", "Kubernetes", "Linux", "React"]
+
+[[skills]]
+name = "Paradigms"
+keywords = ["Functional", "Data Oriented", "First Principles"]
 
 [languages]
 language = "English"
@@ -95,7 +102,7 @@ logo = ""
 duration = "1 yr 4 mos"
 
 [[work.roles]]
-position = "Engineering Technician"
+position = "Shop Attendant"
 date = "May 2009 - Aug 2010"
 summary = "Highschool job, duties included shop maintenance, cleaning, part and vehicle delivery and pick up."
 
@@ -110,22 +117,22 @@ date = "2015 - 2016"
 [[volunteer]]
 organization = "Covenant Fellowship Church"
 position = "Audio Engineer"
-date = "Sep 2008 - Present"
-duration = "12 yrs 7 mos"
+date = "Sep 2006 - Present"
+duration = "14 yrs 7 mos"
 summary = "Co-lead a team of volunteers to steward and run the audio production equipment for Sunday morning services."
 
 
 [interests]
-list = [
+keywords = [
 	"Software Automation",
 	"Audio Engineering",
-	"Food",
+	"Food. Coffee. Beer.",
 	"Traveling",
-	"Internet performance",
-	"Data file formats (encodings, codacs, compression, etc)",
+	"Internet Performance",
+	"Data Compression Formats",
 ]
 
 [learning]
-list = ["Bass Guitar", "Data Compression", "Grilling/Smoking Meats"]
+keywords = ["Bass Guitar", "Data Compression", "Grilling/Smoking Meats"]
 
 [values]
