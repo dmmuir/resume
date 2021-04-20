@@ -33,7 +33,7 @@ keywords = ["Rust", "Javascript", "Bash", "Python", "HTML5", "AWK", "SQL", "Java
 
 [[skills]]
 name = "Technologies"
-keywords = ["Git", "Docker", "Kubernetes", "Linux", "React"]
+keywords = ["Git", "Docker", "Kubernetes", "Linux", "React", "Spinnaker"]
 
 [[skills]]
 name = "Paradigms"
@@ -71,7 +71,6 @@ duration = "2 yrs 6 mos"
 position = "Associate Systems Engineer"
 date = "Jan 2018 - Sep 2018"
 summary = "Primary responsibilities include software development, software implementation, and systems validation."
-
 
 [[work.roles]]
 position = "Associate Quality Engineer"
