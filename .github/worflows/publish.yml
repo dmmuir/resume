@@ -1,0 +1,27 @@
+name: Publish to GH-Pages
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install 
+      run: |
+        cargo install --git https://github.com/gnprice/toml-cli.git
+        cd ./themes/jsonresume-theme-flat && npm install ; cd -
+    - name: Build
+      run: toml get resume.toml . | node themes/jsonresume-theme-flat/index.js > ./resume.html
+    - name: Publish
+      run: npx gh-pages -d build      
+
