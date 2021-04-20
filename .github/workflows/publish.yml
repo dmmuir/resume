@@ -1,4 +1,4 @@
-name: Publish to GH-Pages
+name: "Publish to GH-Pages"
 
 on:
   push:
@@ -23,5 +23,10 @@ jobs:
     - name: Build
       run: toml get resume.toml . | node themes/jsonresume-theme-flat/index.js > ./resume.html
     - name: Publish
-      run: npx gh-pages -d build      
+      run: |
+        git checkout gh-pages
+        mv resume.html index.html
+        git add index.html
+        git commit -m "Update resume"
+        git push
 
