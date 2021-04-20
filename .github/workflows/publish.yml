@@ -16,6 +16,15 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+      with:
+        submodules: recursive
+        token: ${{ secrets.ACCESS_TOKEN }}
+    - name: Setup Git
+      run : |
+        git config --global user.name "dmmuir"
+        git config --global user.email "dmmuir@users.noreploy.github.com"
+        git remote set-url origin https://x-oauth-basic:${{ secrets.ACCESS_TOKEN }}@github.com/dmmuir/resume.git
+        git fetch origin gh-pages
     - name: Install 
       run: |
         cargo install --git https://github.com/gnprice/toml-cli.git
