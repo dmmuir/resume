@@ -25,6 +25,7 @@ This resume is hosted by way of github pages. Add the ./index.html file to gh-pa
 toml get resume.toml . | node themes/jsonresume-theme-flat/index.js > ./resume.html
 git checkout gh-pages
 mv resume.html index.html
-git commit -am "Update resume"
+git add index.html
+git commit -m "Update resume"
 git push
 ```
