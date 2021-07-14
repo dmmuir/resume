@@ -49,18 +49,18 @@ fluency = "Native speaker"
 company = "Cerner Corporation"
 website = "https://www.cerner.com/"
 logo = ""
-duration = "2 yrs 8 mos"
-
-[[work.roles]]
-position = "Associate Senior Software Engineer"
-date = "Sep 2019 - Present"
-summary = "Engineer in healthcare financial systems. Focused on patient reimbursement."
+duration = "2 yrs 10 mos"
 highlights = [
-"Rates regulation analysis with Natural Language processing",
+"Medicare regulation analysis with Natural Language processing",
 ]
 
 [[work.roles]]
-position = "Software Engineer"
+position = "Software Engineer II"
+date = "Sep 2019 - Present"
+summary = "Engineer in healthcare financial systems with a focused in contracts and reimbursement."
+
+[[work.roles]]
+position = "Software Engineer I"
 date = "Sep 2018 - Sep 2019"
 summary = "Fullstack engineer managing my team's cloud deployment strategy and infrastructure."
 
@@ -74,7 +74,7 @@ duration = "2 yrs 6 mos"
 [[work.roles]]
 position = "Associate Systems Engineer"
 date = "Jan 2018 - Sep 2018"
-summary = "Leading validation systems development, implementation, installation. Continuous integration lead."
+summary = "Leading validation systems development, implementation, installation. Focus in client facing DevOps collaboration."
 
 [[work.roles]]
 position = "Associate Quality Engineer"
