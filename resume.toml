@@ -7,7 +7,7 @@ github_source = "https://github.com/dmmuir/resume/tree/main"
 name = "Daniel Muir"
 label = "Software Engineer"
 picture = ""
-summary = "Software Engineer, passionate about simplifying systems. 10 years experience in engineering."
+summary = "Software Engineer, passionate about simplifying systems. 10 years of experience in engineering."
 phone = ""
 email = "daniel.muir.14@gmail.com"
 
@@ -57,7 +57,7 @@ highlights = [
 [[work.roles]]
 position = "Software Engineer II"
 date = "Sep 2019 - Present"
-summary = "Engineer in healthcare financial systems with a focused in contracts and reimbursement."
+summary = "Engineer in healthcare financial systems with a focus in contracts and reimbursement."
 
 [[work.roles]]
 position = "Software Engineer I"
@@ -74,7 +74,7 @@ duration = "2 yrs 6 mos"
 [[work.roles]]
 position = "Associate Systems Engineer"
 date = "Jan 2018 - Sep 2018"
-summary = "Leading validation systems development, implementation, installation. Focus in client facing DevOps collaboration."
+summary = "Leading validation systems development, implementation, and installation. Focus in client facing DevOps collaboration."
 
 [[work.roles]]
 position = "Associate Quality Engineer"
