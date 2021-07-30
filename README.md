@@ -29,3 +29,11 @@ git add index.html
 git commit -m "Update resume"
 git push
 ```
+
+### Making changes to the theme submodule
+
+Because I continue to forget the command, once changes have been made to the jsonresume-theme-flat repo, this repository needs to be updated. Run
+
+```
+git submodule update --remote --merge
+```
