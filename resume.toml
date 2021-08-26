@@ -2,6 +2,7 @@
 
 [config]
 github_source = "https://github.com/dmmuir/resume/tree/main"
+pdf_file = "https://github.com/dmmuir/resume/raw/gh-pages/dmuir-resume.pdf"
 
 [basics]
 name = "Daniel Muir"
@@ -29,11 +30,11 @@ url = "https://www.linkedin.com/in/danmuir/"
 
 [[skills]]
 name = "Programming"
-keywords = ["Rust", "Javascript", "Bash", "Python", "HTML5", "AWK", "SQL", "Java"]
+keywords = ["Rust", "Javascript", "Shell", "Python", "HTML5", "AWK", "SQL", "Java"]
 
 [[skills]]
 name = "Technologies"
-keywords = ["Git", "Docker", "Kubernetes", "Linux", "React", "Spinnaker"]
+keywords = ["Git", "Linux", "Docker", "Kubernetes", "React", "Spinnaker"]
 
 [[skills]]
 name = "Paradigms"
@@ -49,9 +50,10 @@ fluency = "Native speaker"
 company = "Cerner Corporation"
 website = "https://www.cerner.com/"
 logo = ""
-duration = "2 yrs 10 mos"
+duration = "2 yrs 11 mos"
 highlights = [
-"Medicare regulation analysis with Natural Language processing",
+"Medicare regulation analysis with Natural Language processing in Rust and Python",
+"Cloud migration for Dignostic Related Grouping service"
 ]
 
 [[work.roles]]
