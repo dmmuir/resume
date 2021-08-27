@@ -34,7 +34,7 @@ keywords = ["Rust", "Javascript", "Shell", "Python", "HTML5", "AWK", "SQL", "Jav
 
 [[skills]]
 name = "Technologies"
-keywords = ["Git", "Linux", "Docker", "Kubernetes", "React", "Spinnaker"]
+keywords = ["Git", "Linux", "Docker", "Kubernetes", "React", "Spinnaker", "Vim"]
 
 [[skills]]
 name = "Paradigms"
@@ -50,10 +50,11 @@ fluency = "Native speaker"
 company = "Cerner Corporation"
 website = "https://www.cerner.com/"
 logo = ""
-duration = "2 yrs 11 mos"
+duration = "3 yrs"
 highlights = [
 "Medicare regulation analysis with Natural Language processing in Rust and Python",
-"Cloud migration for Dignostic Related Grouping service"
+"Dignostic Related Grouping service migration to cloud architecture",
+"Cloud deployment strategy and orchastration with Kubernetes and Spinnaker"
 ]
 
 [[work.roles]]
@@ -76,7 +77,7 @@ duration = "2 yrs 6 mos"
 [[work.roles]]
 position = "Associate Systems Engineer"
 date = "Jan 2018 - Sep 2018"
-summary = "Leading validation systems development, implementation, and installation. Focus in client facing DevOps collaboration."
+summary = "Lead validation systems development, implementation, and product installation. Focus in client facing DevOps collaboration."
 
 [[work.roles]]
 position = "Associate Quality Engineer"
@@ -123,7 +124,7 @@ date = "2015 - 2016"
 organization = "Covenant Fellowship Church"
 position = "Audio Engineer"
 date = "Sep 2006 - Present"
-duration = "14 yrs 7 mos"
+duration = "15 yrs"
 summary = "Co-lead a team of volunteers to steward and run the audio production equipment for Sunday morning services."
 
 
@@ -139,5 +140,3 @@ keywords = [
 
 [learning]
 keywords = ["Bass Guitar", "Data Compression", "Grilling/Smoking Meats"]
-
-[values]
