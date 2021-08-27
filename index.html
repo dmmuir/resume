@@ -135,6 +135,10 @@ h4 span:first-child {
 	font-size: 14px;
 }
 
+.print-only {
+	display: none;
+}
+
 @media (min-width: 480px) {
 	.strike-through {
 		border-top: 1px solid #f4f6f6;
@@ -249,6 +253,10 @@ h4 span:first-child {
 		margin-top: 12px;
 		page-break-inside: avoid;
 	}
+
+	.print-only {
+		display: inline;
+	}
 }
 
 	</style>
@@ -289,6 +297,14 @@ h4 span:first-child {
 				<div class="col-sm-6">
 					<strong>Timezone</strong>
 					<div class="timezone">Eastern Standard (EST)</div>
+				</div>
+				<div class="col-sm-6 print-only">
+					<strong>Github</strong>
+					<div>https://github.com/dmmuir</div>
+				</div>
+				<div class="col-sm-6 print-only">
+					<strong>Linkedin</strong>
+					<div>https://www.linkedin.com/in/danmuir/</div>
 				</div>
 			</div>
 		</div>
@@ -340,12 +356,13 @@ h4 span:first-child {
 			<div class="col-sm-12">
 				<h4 class="strike-through">
 					<span>Cerner Corporation</span>
-					<span class="date pull-right">2 yrs 11 mos</span>
+					<span class="date pull-right">3 yrs</span>
 				</h4>
 				<h4>Highlights</h4>
 				<ul class="highlights">
 					<li class="bullet">Medicare regulation analysis with Natural Language processing in Rust and Python</li>
-					<li class="bullet">Cloud migration for Dignostic Related Grouping service</li>
+					<li class="bullet">Dignostic Related Grouping service migration to cloud architecture</li>
+					<li class="bullet">Cloud deployment strategy and orchastration with Kubernetes and Spinnaker</li>
 				</ul>
 				<div class="position">
 					<span>
@@ -384,7 +401,7 @@ h4 span:first-child {
 					</span>
 				</div>
 				<div class="summary">
-					<p>Leading validation systems development, implementation, and installation. Focus in client facing DevOps collaboration.</p>
+					<p>Lead validation systems development, implementation, and product installation. Focus in client facing DevOps collaboration.</p>
 				</div>
 				<div class="position">
 					<span>
@@ -457,7 +474,7 @@ h4 span:first-child {
 				<h4 class="strike-through">
 					<span>Covenant Fellowship Church</span>
 					<span class="date">
-						14 yrs 7 mos
+						15 yrs
 					</span>
 				</h4>
 				<div class="position">
@@ -534,6 +551,7 @@ h4 span:first-child {
 					<li>Kubernetes</li>
 					<li>React</li>
 					<li>Spinnaker</li>
+					<li>Vim</li>
 				</ul>
 			</div>
 			<div class="col-sm-6">
