@@ -49,6 +49,7 @@ fluency = "Native speaker"
 [[work]]
 company = "Cerner Corporation"
 website = "https://www.cerner.com/"
+industry = "Health information technology services"
 logo = ""
 duration = "3 yrs"
 highlights = [
@@ -60,17 +61,18 @@ highlights = [
 [[work.roles]]
 position = "Software Engineer II"
 date = "Sep 2019 - Present"
-summary = "Engineer in healthcare financial systems with a focus in contracts and reimbursement."
+summary = "Develops hospital reimbursement systems with a focus in medicare."
 
 [[work.roles]]
 position = "Software Engineer I"
 date = "Sep 2018 - Sep 2019"
-summary = "Fullstack engineer managing my team's cloud deployment strategy and infrastructure."
+summary = "Developed deployment strategy and automation for early cloud adoption."
 
 
 [[work]]
 company = "Tx3 Services LLC"
 website = "https://www.tx3services.com/"
+industry = "B2B saas startup - Life Science validation services"
 logo = ""
 duration = "2 yrs 6 mos"
 
@@ -82,12 +84,13 @@ summary = "Lead validation systems development, implementation, and product inst
 [[work.roles]]
 position = "Associate Quality Engineer"
 date = "Apr 2016 - Jan 2018"
-summary = "Automated gui testing for Life Science systems validation."
+summary = "Automated gui testing for Life Science's lab and manufacturing systems validation."
 
 
 [[work]]
 company = "ONExia Inc"
 website = "http://onexia.com/"
+industry = "Turn-key manufacturing automation solutions"
 logo = ""
 duration = "5 yrs 8 mos"
 
