@@ -54,14 +54,14 @@ logo = ""
 duration = "3 yrs"
 highlights = [
 "Medicare regulation analysis with Natural Language processing in Rust and Python",
-"Dignostic Related Grouping service migration to cloud architecture",
+"Diagnostic Related Grouping service migration to cloud architecture",
 "Cloud deployment strategy and orchastration with Kubernetes and Spinnaker"
 ]
 
 [[work.roles]]
 position = "Software Engineer II"
 date = "Sep 2019 - Present"
-summary = "Develops hospital reimbursement systems with a focus in medicare."
+summary = "Developed hospital reimbursement systems with a focus in medicare."
 
 [[work.roles]]
 position = "Software Engineer I"
@@ -79,7 +79,7 @@ duration = "2 yrs 6 mos"
 [[work.roles]]
 position = "Associate Systems Engineer"
 date = "Jan 2018 - Sep 2018"
-summary = "Lead validation systems development, implementation, and product installation. Focus in client facing DevOps collaboration."
+summary = "Led validation systems development, implementation, and product installation. Focus in client facing DevOps collaboration."
 
 [[work.roles]]
 position = "Associate Quality Engineer"
@@ -103,17 +103,6 @@ summary = "Engineering internship in process and quality assurance development f
 position = "Engineering Technician"
 date = "Aug 2010 - Mar 2013"
 summary = "Engineering technician position tasked with machine part fabrication and product assembly."
-
-
-[[work]]
-company = "DML Automotive"
-logo = ""
-duration = "1 yr 4 mos"
-
-[[work.roles]]
-position = "Shop Attendant"
-date = "May 2009 - Aug 2010"
-summary = "Highschool job, duties included shop maintenance, cleaning, part and vehicle delivery and pick up."
 
 
 [[education]]
