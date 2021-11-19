@@ -45,13 +45,24 @@ keywords = ["Functional", "Data Oriented", "First Principles"]
 language = "English"
 fluency = "Native speaker"
 
+[[work]]
+company = "The Home Depot"
+website = "https://www.homedepot.com/"
+industry = "Home Improvement Retail"
+logo = ""
+duration = "1 mo"
 
+[[work.roles]]
+position = "Software Engineer II"
+date = "Nov 2021 - Present"
+summary = "Developed product list advertising technology"
+ 
 [[work]]
 company = "Cerner Corporation"
 website = "https://www.cerner.com/"
 industry = "Health information technology services"
 logo = ""
-duration = "3 yrs"
+duration = "3 yrs 3 mos"
 highlights = [
 "Medicare regulation analysis with Natural Language processing in Rust and Python",
 "Diagnostic Related Grouping service migration to cloud architecture",
@@ -60,7 +71,7 @@ highlights = [
 
 [[work.roles]]
 position = "Software Engineer II"
-date = "Sep 2019 - Present"
+date = "Sep 2019 - Nov 2021"
 summary = "Developed hospital reimbursement systems with a focus in medicare."
 
 [[work.roles]]
