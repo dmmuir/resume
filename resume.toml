@@ -30,7 +30,7 @@ url = "https://www.linkedin.com/in/danmuir/"
 
 [[skills]]
 name = "Programming"
-keywords = ["Rust", "Javascript", "Shell", "Python", "HTML5", "AWK", "SQL", "Java"]
+keywords = ["Rust", "Javascript", "Shell", "Python", "HTML5", "AWK", "Go", "Clojure", "SQL", "Java"]
 
 [[skills]]
 name = "Technologies"
@@ -38,24 +38,31 @@ keywords = ["Git", "Linux", "Docker", "Kubernetes", "React", "Spinnaker", "Vim"]
 
 [[skills]]
 name = "Paradigms"
-keywords = ["Functional", "Data Oriented", "First Principles"]
+keywords = ["Functional Programming", "Data Oriented Design", "First Principles"]
 
 
 [languages]
 language = "English"
 fluency = "Native speaker"
 
+
 [[work]]
 company = "The Home Depot"
 website = "https://www.homedepot.com/"
 industry = "Home Improvement Retail"
 logo = ""
-duration = "1 mo"
+duration = "10 mos"
+highlights = [
+"Integrate ad tech with search to increase monitization of user traffic (not user data)",
+"Built React component for sponsored products in the search result grid",
+"Proposed and mentored team members on use of a UAT automated testing framework across the Madtech organization"
+]
 
 [[work.roles]]
 position = "Software Engineer II"
 date = "Nov 2021 - Present"
-summary = "Developed product list advertising technology"
+summary = "Developed product list advertising technology for homedepot.com"
+
  
 [[work]]
 company = "Cerner Corporation"
@@ -63,7 +70,7 @@ website = "https://www.cerner.com/"
 industry = "Health information technology services"
 logo = ""
 duration = "3 yrs 3 mos"
-highlights = [
+_highlights = [
 "Medicare regulation analysis with Natural Language processing in Rust and Python",
 "Diagnostic Related Grouping service migration to cloud architecture",
 "Cloud deployment strategy and orchastration with Kubernetes and Spinnaker"
