@@ -11,27 +11,31 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
 	
 	<style type="text/css">
-	@import url(
-https://fonts.googleapis.com/css?family=Lato:400,700
+	@import url(https://fonts.googleapis.com/css?family=Lato:400,700
 );
+
 body {
 	background: #fff;
 	font-family: Lato, sans-serif;
 	margin: 0 0 80px;
 }
+
 a {
 	color: #5e81ac;
 }
+
 a:focus,
 a:hover {
 	color: #88c0d0;
 	text-decoration: none;
 }
+
 p {
 	line-height: 1.5;
 	margin: 0;
 }
-p + p {
+
+p+p {
 	margin-top: 10px;
 }
 
@@ -41,13 +45,16 @@ h3,
 h4 {
 	margin-top: 0
 }
+
 section {
 	margin-top: 30px;
 }
+
 li {
 	line-height: 1.8;
 	list-style: none;
 }
+
 li:before {
 	content: "\f052";
 	float: left;
@@ -57,79 +64,98 @@ li:before {
 	opacity: .1;
 	position: absolute;
 }
+
 blockquote {
 	border-left: 5px solid #e7e9ec;
 	font-size: 14px;
 }
+
 em {
 	color: #95a5a6;
 	font-weight: normal;
 	font-style: normal;
 }
+
 h4 span:first-child {
 	color: #000;
 	font-weight: bold;
 }
+
 .container {
 	max-width: 750px;
 	padding: 0 30px;
 }
+
 .col-sm-6 {
 	margin-bottom: 10px;
 }
+
 .col-sm-12 h4 {
-	margin-top: 12px; 
+	margin-top: 12px;
 }
-.col-sm-12 + .col-sm-12 {
+
+.col-sm-12+.col-sm-12 {
 	margin-top: 30px;
 }
+
 #header {
 	background: #f4f6f6;
 	padding: 50px 0;
 	margin-bottom: 30px;
 }
+
 #header h2 {
 	color: #81a1c1;
 	font-size: 24px;
 }
+
 #content h3 {
 	color: #5e81ac;
 	font-size: 26px;
 	margin-top: -4px;
 }
+
 #content aside {
 	text-align: right;
 	padding-right: 30px;
 }
+
 #profiles .network {
 	text-transform: capitalize;
 }
+
 #work .position,
 #work .industry,
 #volunteer .position {
 	font-weight: bold;
 	margin-bottom: 8px;
 }
+
 #work .summary,
 #work .industry,
 #volunteer .summary {
 	padding-bottom: 5px;
 }
+
 #education .area {
 	font-weight: bold;
 }
+
 #education .area:before {
 	content: "\f0d7";
 	font: 16px Octicons;
 	margin-right: 6px;
 }
+
 #education .studyType {
 	margin-left: 25px;
 }
+
 #awards .summary,
 #publications .summary {
 	margin-top: 8px;
 }
+
 #publications .website a:before {
 	content: attr(href);
 }
@@ -150,56 +176,70 @@ h4 span:first-child {
 		margin-bottom: -2px;
 		position: relative;
 	}
+
 	.strike-through span,
 	.strike-through a {
 		background: #fff;
 		position: absolute;
 	}
+
 	.strike-through span:first-child {
 		padding-right: 20px;
 		margin-top: -12px;
 	}
-	.strike-through span + span {
+
+	.strike-through span+span {
 		font-size: 14px;
 		margin-top: -10px;
 		padding-left: 20px;
 		right: 0;
 	}
 }
+
 @media (max-width: 768px) {
 	.col-sm-6:last-child {
 		margin-bottom: 0px;
 	}
+
 	#content aside {
 		margin-bottom: 20px;
 		padding-right: 0;
 		text-align: left;
 	}
+
 	#publications .website a:before {
 		content: "View publication";
 	}
 }
+
 @media (max-width: 480px) {
 	h1 {
 		font-size: 26px;
 	}
+
 	.date {
 		font-size: 14px;
 		margin-bottom: 5px;
 	}
+
 	.strike-through span:first-child {
 		margin-bottom: 7px;
 	}
+
 	.strike-through span {
 		display: inline;
-	}	
+	}
+
 	#header {
 		margin-bottom: 10px;
 		padding: 40px 0;
 	}
-	#actions, .mobile-exclude {
+
+	#actions,
+	.mobile-exclude {
 		display: none;
 	}
+
 	.position span {
 		font-size: 13px;
 	}
@@ -210,31 +250,40 @@ h4 span:first-child {
 		padding-bottom: 5px;
 		margin-bottom: 0px;
 		display: flex;
-		flex-direction:column-reverse;
+		flex-direction: column-reverse;
 	}
 
 	#about,
-	#interests, 
-	#volunteer, 
-	#profiles, 
+	#interests,
+	#volunteer,
+	#profiles,
 	#contact aside,
-	#work div .col-sm-12:last-child, /* This is the last work item */
+	#work div .col-sm-12:last-child,
+	/* This is the last work item */
 	#footer {
 		display: none;
+	}
+
+	#project {
+		padding-top: 20px;
+		page-break-before: always;
 	}
 
 	h1 {
 		font-size: 20px;
 	}
 
-	#header h2, #skills h4 {
+	#header h2,
+	#skills h4 {
 		font-size: 10pt;
 	}
 
 	#content h3 {
 		font-size: 13pt;
 	}
-	#work h4, #education h4{
+
+	#work h4,
+	#education h4 {
 		font-size: 12pt;
 	}
 
@@ -242,7 +291,8 @@ h4 span:first-child {
 		font-size: 8pt !important;
 	}
 
-	#contact div .row, #skills .row {
+	#contact div .row,
+	#skills .row {
 		display: flex;
 		justify-items: center;
 	}
@@ -262,7 +312,6 @@ h4 span:first-child {
 		display: inline;
 	}
 }
-
 	</style>
 	
 	</head>
@@ -318,7 +367,7 @@ h4 span:first-child {
 			<h3>About</h3>
 		</aside>
 		<div class="col-sm-9">
-			<p>Software Engineer, passionate about simplifying systems. 10 years of experience in engineering.</p>
+			<p>Software Engineer, passionate about simplifying systems. 12 years of experience in engineering.</p>
 		</div>
 	</section>
 	<section id="profiles" class="row">
@@ -360,15 +409,15 @@ h4 span:first-child {
 			<div class="col-sm-12">
 				<h4 class="strike-through">
 					<span>The Home Depot</span>
-					<span class="date pull-right">10 mos</span>
+					<span class="date pull-right">1 yrs 10 mos</span>
 				</h4>
 				<div class="industry">
-					<span>Home Improvement Retail</span>
+					<span>Home Improvement Retailer</span>
 				</div>
 				<h4>Highlights</h4>
 				<ul class="highlights">
 					<li class="bullet">Integrate ad tech with search to increase monitization of user traffic (not user data)</li>
-					<li class="bullet">Built React component for sponsored products in the search result grid</li>
+					<li class="bullet">Design and architect sponsored product promotion and placement</li>
 					<li class="bullet">Proposed and mentored team members on use of a UAT automated testing framework across the Madtech organization</li>
 				</ul>
 				<div class="position">
@@ -534,6 +583,33 @@ h4 span:first-child {
 	</section>
 	
 	
+
+		<section id="project" class="row">
+			<aside class="col-sm-3">
+				<h3>Projects</h3>
+			</aside>
+			<div class="col-sm-9">
+				<div class="row">
+				<div class="col-sm-12">
+					<h4 class="strike-through">
+						<span>Regulatory Document Analysis</span>
+						<span class="date pull-right">2018 - 2019</span>
+					</h4>
+					<div class="summary">
+						<p>Built an algorithm that leveraged natural language processing to better understand the year over year regulatory changes in Medicare documents.</p>
+					</div>
+					<div class="project-highlights">
+						<h4>Highlights</h4>
+						<ul class="highlights">
+							<li>Presented the project at Cerner&#x27;s DevCon</li>
+							<li>Named inventor on U.S. patent 11,681,863; issued July 2023</li>
+						</ul>
+					</div>
+				</div>
+				</div>
+			</div>
+		</section>
+ 
 	
 	<section id="skills" class="row">
 		<aside class="col-sm-3">
@@ -547,13 +623,13 @@ h4 span:first-child {
 				</div>
 				<ul class="keywords">
 					<li>Rust</li>
-					<li>Javascript</li>
 					<li>Shell</li>
+					<li>Javascript</li>
 					<li>Python</li>
 					<li>HTML5</li>
 					<li>AWK</li>
 					<li>Go</li>
-					<li>Clojure</li>
+					<li>Scala</li>
 					<li>SQL</li>
 					<li>Java</li>
 				</ul>
@@ -568,6 +644,7 @@ h4 span:first-child {
 					<li>Docker</li>
 					<li>Kubernetes</li>
 					<li>React</li>
+					<li>GCP</li>
 					<li>Spinnaker</li>
 					<li>Vim</li>
 				</ul>
@@ -577,8 +654,8 @@ h4 span:first-child {
 					<h4>Paradigms</h4>
 				</div>
 				<ul class="keywords">
-					<li>Functional Programming</li>
 					<li>Data Oriented Design</li>
+					<li>Functional Programming</li>
 					<li>First Principles</li>
 				</ul>
 			</div>
