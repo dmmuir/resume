@@ -25,6 +25,7 @@ This resume is hosted by way of github pages. Add the ./index.html file to gh-pa
 toml get resume.toml . | node themes/jsonresume-theme-flat/index.js > ./resume.html
 git checkout gh-pages
 mv resume.html index.html
+mv print.pdf dmuir-resume.pdf 
 git add index.html
 git commit -m "Update resume"
 git push
@@ -35,5 +36,9 @@ git push
 Because I continue to forget the command, once changes have been made to the jsonresume-theme-flat repo, this repository needs to be updated. Run
 
 ```
+# If not already initialized
+git submodule update --init --recursive
+
+# If initialized but not updated
 git submodule update --remote --merge
 ```

@@ -8,7 +8,7 @@ pdf_file = "https://github.com/dmmuir/resume/raw/gh-pages/dmuir-resume.pdf"
 name = "Daniel Muir"
 label = "Software Engineer"
 picture = ""
-summary = "Software Engineer, passionate about simplifying systems. 10 years of experience in engineering."
+summary = "Software Engineer, passionate about simplifying systems. 12 years of experience in engineering."
 phone = ""
 email = "daniel.muir.14+resume@gmail.com"
 
@@ -30,15 +30,15 @@ url = "https://www.linkedin.com/in/danmuir/"
 
 [[skills]]
 name = "Programming"
-keywords = ["Rust", "Javascript", "Shell", "Python", "HTML5", "AWK", "Go", "Clojure", "SQL", "Java"]
+keywords = ["Rust", "Shell", "Javascript", "Python", "HTML5", "AWK", "Go", "Scala", "SQL", "Java"]
 
 [[skills]]
 name = "Technologies"
-keywords = ["Git", "Linux", "Docker", "Kubernetes", "React", "Spinnaker", "Vim"]
+keywords = ["Git", "Linux", "Docker", "Kubernetes", "React", "GCP", "Spinnaker", "Vim"]
 
 [[skills]]
 name = "Paradigms"
-keywords = ["Functional Programming", "Data Oriented Design", "First Principles"]
+keywords = ["Data Oriented Design", "Functional Programming", "First Principles"]
 
 
 [languages]
@@ -49,12 +49,12 @@ fluency = "Native speaker"
 [[work]]
 company = "The Home Depot"
 website = "https://www.homedepot.com/"
-industry = "Home Improvement Retail"
+industry = "Home Improvement Retailer"
 logo = ""
-duration = "10 mos"
+duration = "1 yrs 10 mos"
 highlights = [
 "Integrate ad tech with search to increase monitization of user traffic (not user data)",
-"Built React component for sponsored products in the search result grid",
+"Design and architect sponsored product promotion and placement",
 "Proposed and mentored team members on use of a UAT automated testing framework across the Madtech organization"
 ]
 
@@ -136,6 +136,16 @@ position = "Audio Engineer"
 date = "Sep 2006 - Present"
 duration = "15 yrs"
 summary = "Co-lead a team of volunteers to steward and run the audio production equipment for Sunday morning services."
+
+
+[[project]]
+name = "Regulatory Document Analysis"
+date = "2018 - 2019"
+summary = "Built an algorithm that leveraged natural language processing to better understand the year over year regulatory changes in Medicare documents."
+highlights = [
+"Presented the project at Cerner's DevCon",
+"Named inventor on U.S. patent 11,681,863; issued July 2023"
+]
 
 
 [interests]
